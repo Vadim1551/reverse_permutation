@@ -132,7 +132,7 @@ class App(QMainWindow):
             reverse_text = text_with_spaces[::-1].strip()
             self.output_textEdit.setPlainText(reverse_text)
         else:
-            pass
+            self.output_textEdit.setPlainText("Ошибка!!! Вы не ввели текст.")
 
     def decryption(self, groups_langth, count_letters, data):  #Функция для расшифрования сообщения
         if data:
