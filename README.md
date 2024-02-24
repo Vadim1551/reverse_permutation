@@ -2,6 +2,7 @@
 ```
 git clone https://github.com/Vadim1551/reverse_permutation.git
 cd reverse_permutation
+git checkout master
 ```
 ## После нужно установить модуль PyQt5 в ваш Python
 ```
