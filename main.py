@@ -9,7 +9,7 @@ from PyQt5.QtGui import QPixmap
 class App(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('GUI2.ui', self)
+        uic.loadUi('GUI.ui', self)
         self.english_alphabet = 'abcdefghijklmnopqrstuvwxyz'            #  Алфавит для генерации доп. букв
         self.russian_alphabet = 'абвгдеёжзийклмнопрстуфхцчшщъыьэюя'     #
         self.encryption_radioButton.setChecked(True)
